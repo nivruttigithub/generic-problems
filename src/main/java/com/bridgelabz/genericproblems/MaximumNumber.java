@@ -37,8 +37,13 @@ public class MaximumNumber {
         Float a3 = 2.2f, b3 = 4.4f, c3 = 10.1f;
         System.out.println("Max of (2.2, 4.4, 10.1) is: " + findMax(a3, b3, c3));
 
-        String str1 = "Apple", str2 = "Peach", str3 = "Banana";
-        System.out.println("Max of Apple, Peach, Banana is : " + findMax(str1, str2, str3));
+        String s1 = "Zebra", s2 = "Elephant", s3 = "Lion";
+        System.out.println("Max of (Zebra, Elephant, Lion) is: " + findMax(s1, s2, s3));
 
+        String str1 = "Apple", str2 = "Peach", str3 = "Banana";
+        System.out.println("Max of (Apple, Peach, Banana) is : " + findMax(str1, str2, str3));
+
+        String st1 = "Cherry", st2 = "Apricot", st3 = "Mango";
+        System.out.println("Max of (Cherry, Apricot, Mango) is: " + findMax(st1, st2, st3));
     }
 }

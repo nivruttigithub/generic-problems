@@ -20,4 +20,22 @@ public class MaximumNumberTest {
     public void WhenGivenMaxAtThirdPosition_ShouldReturnMax() {
         Assertions.assertEquals(30.3f, MaximumNumber.findMax(5.0f, 15.0f, 30.3f), "Max should be 30.3");
     }
+
+    // TC1.1 : Given Max String at 1st Position return the Same String
+    @Test
+    public void WhenGivenMaxStrAtFirstPosition_ShouldReturnMax() {
+        Assertions.assertEquals("Peach", MaximumNumber.findMax("Peach", "Apple", "Banana"), "Max should be Peach");
+    }
+
+    // TC1.2 : Given Max String at 2nd Position return the Same String
+    @Test
+    public void WhenGivenMaxStrAtSecondPosition_ShouldReturnMax() {
+        Assertions.assertEquals("Zebra", MaximumNumber.findMax("Lion", "Zebra", "Elephant"), "Max should be Zebra");
+    }
+
+    // TC1.3 : Given Max String at 3rd Position return the Same String
+    @Test
+    public void WhenGivenMaxStrAtThirdPosition_ShouldReturnMax() {
+        Assertions.assertEquals("Mango", MaximumNumber.findMax("Cherry", "Apricot", "Mango"), "Max should be Mango");
+    }
 }
