@@ -14,6 +14,18 @@ public class MaximumNumber {
 
         return max;
     }
+    public static String findMax(String str1, String str2, String str3) {
+        String max = str1;
+
+        if (str2.compareTo(max) > 0) {
+            max = str2;
+        }
+        if (str3.compareTo(max) > 0) {
+            max = str3;
+        }
+
+        return max;
+    }
     public static void main(String[] args) {
 
         Float num1 = 10.5f, num2 = 5.2f, num3 = 3.1f;
@@ -24,5 +36,9 @@ public class MaximumNumber {
 
         Float a3 = 2.2f, b3 = 4.4f, c3 = 10.1f;
         System.out.println("Max of (2.2, 4.4, 10.1) is: " + findMax(a3, b3, c3));
+
+        String str1 = "Apple", str2 = "Peach", str3 = "Banana";
+        System.out.println("Max of Apple, Peach, Banana is : " + findMax(str1, str2, str3));
+
     }
 }
