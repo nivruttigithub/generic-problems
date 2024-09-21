@@ -2,22 +2,8 @@ package com.bridgelabz.genericproblems;
 
 public class PrintArray {
 
-    public static void toPrint(Integer[] intArray) {
-        for (Integer element : intArray) {
-            System.out.print(element + " ");
-        }
-        System.out.println();
-    }
-
-    public static void toPrint(Double[] doubleArray) {
-        for (Double element : doubleArray) {
-            System.out.print(element + " ");
-        }
-        System.out.println();
-    }
-
-    public static void toPrint(Character[] charArray) {
-        for (Character element : charArray) {
+    public static <T> void toPrint(T[] inputArray) {
+        for (T element : inputArray) {
             System.out.print(element + " ");
         }
         System.out.println();
