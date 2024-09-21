@@ -15,7 +15,8 @@ public class MaximumNumber {
     }
 
     public static void main(String[] args) {
-        Integer num1 = 10, num2 = 5, num3 = 3;
+
         System.out.println("Max of 10, 5, 3 is : " + findMax(10, 5, 3));
+
     }
 }
