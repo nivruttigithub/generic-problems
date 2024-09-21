@@ -19,5 +19,7 @@ public class MaximumNumber {
         Float num1 = 10.5f, num2 = 5.2f, num3 = 3.1f;
         System.out.println("Max of 10.5, 5.2, 3.1 is : " + findMax(num1, num2, num3));
 
+        Float a2 = 3.3f, b2 = 12.8f, c2 = 7.4f;
+        System.out.println("Max of (3.3, 12.8, 7.4) is: " + findMax(a2, b2, c2));
     }
 }
