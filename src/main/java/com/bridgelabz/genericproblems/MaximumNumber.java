@@ -21,5 +21,8 @@ public class MaximumNumber {
 
         Float a2 = 3.3f, b2 = 12.8f, c2 = 7.4f;
         System.out.println("Max of (3.3, 12.8, 7.4) is: " + findMax(a2, b2, c2));
+
+        Float a3 = 2.2f, b3 = 4.4f, c3 = 10.1f;
+        System.out.println("Max of (2.2, 4.4, 10.1) is: " + findMax(a3, b3, c3));
     }
 }

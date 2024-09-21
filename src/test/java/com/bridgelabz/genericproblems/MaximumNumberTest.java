@@ -14,4 +14,10 @@ public class MaximumNumberTest {
     public void WhenGivenMaxAtSecondPosition_ShouldReturnMax() {
         Assertions.assertEquals(20.2f, MaximumNumber.findMax(5.0f, 20.2f, 15.0f), "Max should be 20.2");
     }
+
+    // TC1.3 : Given Max Number at 3rd Position return the Same Number
+    @Test
+    public void WhenGivenMaxAtThirdPosition_ShouldReturnMax() {
+        Assertions.assertEquals(30.3f, MaximumNumber.findMax(5.0f, 15.0f, 30.3f), "Max should be 30.3");
+    }
 }
